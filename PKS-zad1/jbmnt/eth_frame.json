@@ -1,0 +1,70 @@
+{
+  "eth.types": {
+    "value-to-compare": "0600",
+    "Ethernetname": "EthernetII",
+    "IEEE-llc":"IEEE 802.3 LLC",
+    "IEEE-raw":"IEEE 802.3 RAW",
+    "IEEE-snap":"IEEE 802.3 LLC + SNAP"
+  },
+  "ipv4": {
+      "value" : "0800",
+      "name" : "IPv4",
+      "protocols": {
+          "icmp": {
+              "value": 1,
+              "name": "ICMP"
+          },
+          "tcp": {
+              "value": 6,
+              "name": "TCP"
+          },
+          "udp": {
+              "value": 23,
+              "name": "UDP"
+          }
+      },
+      "messages": {
+          "Echo Reply": 0,
+          "Destination Unreachable": 3,
+          "Source Quench": 4,
+          "Redirect": 5,
+          "echo": 7,
+          "Echo": 8,
+          "Router Advertisement": 9,
+          "Router Selection": 10,
+          "Time Exceeded": 11,
+          "Parameter Problem": 12,
+          "Timestamp": 13,
+          "Timestamp Reply": 14,
+          "Information Request": 15,
+          "Information Reply": 16,
+          "Address Mask Request": 17,
+          "Address Mask Reply": 18,
+          "chargen": 19,
+          "ftp-data": 20,
+          "ftp-control": 21,
+          "ssh": 22,
+          "telnet": 23,
+          "smtp": 25,
+          "Traceroute": 30,
+          "time": 37,
+          "http": 80,
+          "tftp": 69,
+          "snmp": 161,
+          "snmp-trap": 162,
+          "https (ssl)": 443
+      }
+  },
+  "arp": {
+      "value" : "0806",
+      "name" : "ARP",
+      "operation-request": {
+          "value": 1,
+          "name": "request"
+      },
+      "operation-reply": {
+          "value": 2,
+          "name": "reply"
+    }
+  }
+}
