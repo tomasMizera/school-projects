@@ -1,9 +1,0 @@
-﻿  Source.cpp
-e:\git\vsprojects\jbmnt\jbmnt\source.cpp(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
-e:\git\vsprojects\jbmnt\jbmnt\source.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
-e:\git\vsprojects\jbmnt\jbmnt\source.cpp(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
-  jbmnt.vcxproj -> E:\GIT\VSprojects\jbmnt\Debug\jbmnt.exe
-  jbmnt.vcxproj -> E:\GIT\VSprojects\jbmnt\Debug\jbmnt.pdb (Partial PDB)

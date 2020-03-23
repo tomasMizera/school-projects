@@ -1,2 +1,2 @@
-# security
-Zaloha kodov v skole
+# School projects backup
+
